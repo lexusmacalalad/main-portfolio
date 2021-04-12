@@ -39,7 +39,8 @@
 }
 
 .dropdown-content a:hover {
-  background-color: #5C7E8C;
+  background-color: #0C536E;
+  color: white;
 }
 
 .dropdown:hover .dropdown-content {

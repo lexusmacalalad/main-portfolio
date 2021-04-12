@@ -41,7 +41,10 @@
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #5C7E8C}
+  .dropdown-content a:hover {
+      background-color: $deep-ocean;
+      color: white;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -50,51 +53,6 @@
   .dropdown:hover .dropbtn {
     background-color: #5C7E8C;
   }
-
-//   #navigation {
-//       background-color: $menu-bar;
-//   }
-
-//   .dropdown {
-//       position: relative;
-//       display:inline-block;
-//   }
-
-//   .dropdown-content {
-//       display: none;
-//       position: absolute;
-//       background-color: $offwhite-color;
-//       min-width: 160px;
-//       box-shadow: 0px 8px 16px 0px #7D9BA7;
-//       z-index: 1;
-//   }
-
-//   .dropdown-content a {
-//     color: black;
-//     padding: 12px 6px;
-//     text-decoration: none;
-//     display: block;
-//   }
-
-//   .dropdown-content a:hover {
-//     background-color: $deep-ocean;
-//   }
-
-//   .dropdown-content:hover .dropdown-content {
-//       display: block;
-//   }
-
-//   .dropdown:hover .dropbtn{
-//       background-color: $menu-button;
-//   }
-
-//   .dropbtn {
-//       background-color: $menu-button;
-//       color: black;
-//       padding: 16px;
-//       border: none;
-//       cursor: pointer;
-//   }
   
   @media only screen and (min-width: 600px) {
     // larger than 601px - 768px
