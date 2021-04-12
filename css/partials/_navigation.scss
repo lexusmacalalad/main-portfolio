@@ -15,7 +15,7 @@
     background-color: $menu-button;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 25px;
     border: none;
     cursor: pointer;
   }
@@ -29,19 +29,22 @@
     display: none;
     position: absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 130px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
   .dropdown-content a {
-    color: black;
+    color: $deep-ocean;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
   }
   
-  .dropdown-content a:hover {background-color: #5C7E8C}
+  .dropdown-content a:hover {
+      background-color: #5C7E8C;
+      color: white;
+  }
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -50,51 +53,6 @@
   .dropdown:hover .dropbtn {
     background-color: #5C7E8C;
   }
-
-//   #navigation {
-//       background-color: $menu-bar;
-//   }
-
-//   .dropdown {
-//       position: relative;
-//       display:inline-block;
-//   }
-
-//   .dropdown-content {
-//       display: none;
-//       position: absolute;
-//       background-color: $offwhite-color;
-//       min-width: 160px;
-//       box-shadow: 0px 8px 16px 0px #7D9BA7;
-//       z-index: 1;
-//   }
-
-//   .dropdown-content a {
-//     color: black;
-//     padding: 12px 6px;
-//     text-decoration: none;
-//     display: block;
-//   }
-
-//   .dropdown-content a:hover {
-//     background-color: $deep-ocean;
-//   }
-
-//   .dropdown-content:hover .dropdown-content {
-//       display: block;
-//   }
-
-//   .dropdown:hover .dropbtn{
-//       background-color: $menu-button;
-//   }
-
-//   .dropbtn {
-//       background-color: $menu-button;
-//       color: black;
-//       padding: 16px;
-//       border: none;
-//       cursor: pointer;
-//   }
   
   @media only screen and (min-width: 600px) {
     // larger than 601px - 768px
@@ -112,6 +70,9 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     #main-section {min-height: 904px;}
+    .dropbtn {font-size: 50px;}
+    .dropdown-content {min-width: 250px;}
+    .dropdown-content a {font-size: 30px;}
   }
   
   @media only screen and (min-width: 769px) {
@@ -130,4 +91,7 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     #main-section {min-height: 1087px;}
+    .dropbtn {font-size: 30px; padding: 8px;}
+    .dropdown-content a {font-size: 15px;}
+    .dropdown-content {min-width: 180px;}
   }
