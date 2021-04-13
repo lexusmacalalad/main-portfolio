@@ -1,20 +1,31 @@
-// Scss Partials
-@import "./partials/navigation";
-@import "./partials/header";
+@import "./variables";
 
-// Fonts
-
-// Getting rid of default styling on all elements
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap');
 
 // Responsive media queries
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
+  }
+
+  #header {
+      min-height: 70px;
+      background-color: #7D9BA7;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+    h1 {
+        font-size: 17px;
+        margin: 20px;
+        color: white;
+        font-family: Roboto Condensed;
+        font-weight: 700;
+    }
+    h2 {
+        font-size: 15px;
+        margin: 15px 0px 50px 90px;
+        color: black;
+    }
   }
   
   @media only screen and (min-width: 600px) {
@@ -32,7 +43,16 @@
     .col-s-10 {width: 83.33%;}
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
-    #main-section {min-height: 904px;}
+    #header {
+        min-height: 100px;
+        h1 {
+            font-size: 1.6em;
+        }
+        h2 {
+            font-size: 1.4em;
+            margin-left: 350px;
+        }
+    }
   }
   
   @media only screen and (min-width: 769px) {
@@ -50,5 +70,4 @@
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
-    #main-section {min-height: 1087px;}
   }
