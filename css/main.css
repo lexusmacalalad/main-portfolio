@@ -1,5 +1,6 @@
 /* For mobile phones: */
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap");
 [class*="col-"] {
   width: 100%;
 }
@@ -279,6 +280,199 @@
   }
   .col-12 {
     width: 100%;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+#main-page {
+  background-image: url(../../images/snow-mountain-2380x1600.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+  min-height: 812px;
+}
+
+main#welcome-main {
+  min-height: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main#welcome-main h1 {
+  font-family: Zilla Slab Highlight;
+  color: white;
+  margin: 25px;
+  font-size: 35px;
+}
+
+main#welcome-main div.fullstack-container {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin: 25px 20px;
+}
+
+main#welcome-main h2 {
+  background-color: #7D9BA7;
+  color: white;
+  font-size: 25px;
+  padding: 3px;
+  margin-right: 42px;
+}
+
+main#welcome-main h3 {
+  color: #7D9BA7;
+  margin-left: 120px;
+  font-size: 20px;
+}
+
+a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: block;
+  background-color: #0C536E;
+  width: 140px;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: monospace;
+  text-align: center;
+  border-bottom: 2px solid #555;
+  padding: 8px 16px;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  width: 150px;
+  height: 50px;
+  background-color: #7D9BA7;
+  color: black;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+  font-size: 30px;
+}
+
+a:active {
+  background-color: black;
+  color: white;
+  -webkit-transition: none;
+  transition: none;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  #main-section {
+    min-height: 904px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  #main-section {
+    min-height: 1087px;
   }
 }
 
