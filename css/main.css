@@ -302,11 +302,12 @@
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
-  min-height: 812px;
+  width: 100vw;
+  height: 100vh;
 }
 
 main#welcome-main {
-  min-height: 1000px;
+  min-height: 752px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -339,13 +340,15 @@ main#welcome-main h2 {
   color: white;
   font-size: 25px;
   padding: 3px;
-  margin-right: 42px;
+  margin-right: 139px;
 }
 
 main#welcome-main h3 {
   color: #7D9BA7;
+  background-color: black;
+  padding: 2px;
   margin-left: 120px;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 a {
@@ -353,35 +356,38 @@ a {
       -ms-grid-row-align: center;
       align-self: center;
   display: block;
-  background-color: #0C536E;
+  background-color: white;
   width: 140px;
-  height: 35px;
+  height: 39px;
   border-radius: 5px;
-  font-size: 25px;
+  font-size: 17px;
   font-family: monospace;
   text-align: center;
-  border-bottom: 2px solid #555;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
   padding: 8px 16px;
 }
 
 a:link {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:visited {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
 a:hover {
   width: 150px;
   height: 50px;
-  background-color: #7D9BA7;
-  color: black;
+  background-color: black;
+  color: white;
   -webkit-transition: 0.25s;
   transition: 0.25s;
   font-size: 30px;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
 }
 
 a:active {
@@ -429,8 +435,26 @@ a:active {
   .col-s-12 {
     width: 100%;
   }
-  #main-section {
-    min-height: 904px;
+  main#welcome-main {
+    min-height: 964px;
+  }
+  main#welcome-main h1 {
+    font-size: 3em;
+  }
+  main#welcome-main h2 {
+    font-size: 2.7em;
+  }
+  main#welcome-main h3 {
+    font-size: 2.7em;
+  }
+  main#welcome-main a {
+    width: 8.7em;
+    height: 2.2em;
+    font-size: 2em;
+  }
+  main#welcome-main a:hover {
+    width: 8.9em;
+    height: 2.4em;
   }
 }
 
@@ -472,8 +496,28 @@ a:active {
   .col-12 {
     width: 100%;
   }
-  #main-section {
-    min-height: 1087px;
+  main#welcome-main {
+    min-height: 619px;
+  }
+  main#welcome-main h1 {
+    font-size: 2.2em;
+  }
+  main#welcome-main h2 {
+    font-size: 1.7em;
+    width: 193px;
+  }
+  main#welcome-main h3 {
+    font-size: 1.7em;
+    padding: 3px 19px;
+  }
+  main#welcome-main a {
+    width: 6.6em;
+    height: 2.2em;
+    font-size: 1.2em;
+  }
+  main#welcome-main a:hover {
+    width: 9em;
+    height: 2.5em;
   }
 }
 
