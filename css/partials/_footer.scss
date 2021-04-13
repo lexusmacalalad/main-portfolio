@@ -1,16 +1,23 @@
-// Scss Partials
-@import "./partials/navigation";
-@import "./partials/header";
-@import "./partials/background";
-@import "./partials/footer";
-
-// Fonts
+@import "./variables";
+@import "./mixins";
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap');
 
 // Getting rid of default styling on all elements
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content:space-evenly;
+    background-color: white;
+    max-height: 80px;
+    padding: 5px;
+    img {
+        height: 50px;
+    }
 }
 
 // Responsive media queries
