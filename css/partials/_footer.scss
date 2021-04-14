@@ -13,8 +13,9 @@ footer {
   background-color: white;
   display: flex;
   justify-content: space-evenly;
-  min-height: 60px;
-  bottom: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
   img {
     margin-top: 5px;
     height: 50px;
@@ -44,7 +45,6 @@ footer {
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     footer {
-      min-height: 73px;
       img {
         height: 58px;
       }
@@ -67,9 +67,8 @@ footer {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     footer {
-      min-height: 73px;
       img {
-        height: 58px;
+        height: 48px;
       }
     }
   }
