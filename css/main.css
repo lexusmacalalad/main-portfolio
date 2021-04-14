@@ -339,15 +339,15 @@
   background-color: #7D9BA7;
   color: white;
   font-size: 25px;
-  padding: 3px;
-  margin-right: 139px;
+  padding: 3px 18px;
+  margin-right: 149px;
 }
 
 #welcome-main h3 {
   color: #7D9BA7;
   background-color: black;
-  padding: 2px;
-  margin-left: 120px;
+  padding: 2px 18px;
+  margin-left: 112px;
   font-size: 22px;
 }
 
@@ -379,13 +379,10 @@
 }
 
 #explore:hover {
-  width: 150px;
-  height: 50px;
   background-color: black;
   color: white;
   -webkit-transition: 0.25s;
   transition: 0.25s;
-  font-size: 30px;
   border-bottom: 2px solid white;
   border-right: 2px solid white;
 }
@@ -443,18 +440,15 @@
   }
   main#welcome-main h2 {
     font-size: 2.7em;
+    margin-right: 264px;
   }
   main#welcome-main h3 {
     font-size: 2.7em;
   }
-  main#welcome-main a {
-    width: 8.7em;
-    height: 2.2em;
-    font-size: 2em;
-  }
-  main#welcome-main a:hover {
-    width: 8.9em;
-    height: 2.4em;
+  main#welcome-main #explore {
+    font-size: 2.7em;
+    width: 7.4em;
+    height: 1.8em;
   }
 }
 
@@ -510,14 +504,10 @@
     font-size: 1.7em;
     padding: 3px 19px;
   }
-  main#welcome-main a {
-    width: 6.6em;
-    height: 2.2em;
-    font-size: 1.2em;
-  }
-  main#welcome-main a:hover {
-    width: 9em;
-    height: 2.5em;
+  main#welcome-main #explore {
+    font-size: 1.4em;
+    width: 7.7em;
+    height: 2.1em;
   }
 }
 
