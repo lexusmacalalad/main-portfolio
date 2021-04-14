@@ -306,8 +306,8 @@
   height: 100vh;
 }
 
-main#welcome-main {
-  min-height: 752px;
+#welcome-main {
+  min-height: 706px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -322,20 +322,20 @@ main#welcome-main {
           justify-content: space-between;
 }
 
-main#welcome-main h1 {
+#welcome-main h1 {
   font-family: Zilla Slab Highlight;
   color: white;
   margin: 25px;
   font-size: 35px;
 }
 
-main#welcome-main div.fullstack-container {
+#welcome-main div.fullstack-container {
   -ms-flex-item-align: end;
       align-self: flex-end;
   margin: 25px 20px;
 }
 
-main#welcome-main h2 {
+#welcome-main h2 {
   background-color: #7D9BA7;
   color: white;
   font-size: 25px;
@@ -343,7 +343,7 @@ main#welcome-main h2 {
   margin-right: 139px;
 }
 
-main#welcome-main h3 {
+#welcome-main h3 {
   color: #7D9BA7;
   background-color: black;
   padding: 2px;
@@ -351,7 +351,7 @@ main#welcome-main h3 {
   font-size: 22px;
 }
 
-a {
+#explore {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -368,17 +368,17 @@ a {
   padding: 8px 16px;
 }
 
-a:link {
+#explore:link {
   color: black;
   text-decoration: none;
 }
 
-a:visited {
+#explore:visited {
   color: black;
   text-decoration: none;
 }
 
-a:hover {
+#explore:hover {
   width: 150px;
   height: 50px;
   background-color: black;
@@ -390,7 +390,7 @@ a:hover {
   border-right: 2px solid white;
 }
 
-a:active {
+#explore:active {
   background-color: black;
   color: white;
   -webkit-transition: none;
@@ -436,7 +436,7 @@ a:active {
     width: 100%;
   }
   main#welcome-main {
-    min-height: 964px;
+    min-height: 883px;
   }
   main#welcome-main h1 {
     font-size: 3em;
@@ -497,7 +497,7 @@ a:active {
     width: 100%;
   }
   main#welcome-main {
-    min-height: 619px;
+    min-height: 667px;
   }
   main#welcome-main h1 {
     font-size: 2.2em;
@@ -529,18 +529,19 @@ a:active {
 }
 
 footer {
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-color: white;
-  max-height: 80px;
-  padding: 5px;
+  min-height: 60px;
+  bottom: 20px;
 }
 
 footer img {
+  margin-top: 5px;
   height: 50px;
 }
 
@@ -587,8 +588,11 @@ footer img {
   .col-s-12 {
     width: 100%;
   }
-  #main-section {
-    min-height: 904px;
+  footer {
+    min-height: 73px;
+  }
+  footer img {
+    height: 58px;
   }
 }
 
@@ -630,8 +634,11 @@ footer img {
   .col-12 {
     width: 100%;
   }
-  #main-section {
-    min-height: 1087px;
+  footer {
+    min-height: 73px;
+  }
+  footer img {
+    height: 58px;
   }
 }
 

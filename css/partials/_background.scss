@@ -26,8 +26,8 @@
     width: 100vw;
     height: 100vh;
     }
-    main#welcome-main {
-        min-height: 752px;
+    #welcome-main {
+        min-height: 706px;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -57,7 +57,7 @@
                 font-size: 22px;
             }
         }
-        a {
+        #explore {
             align-self: center;
             display: block;
             background-color: white;
@@ -111,7 +111,7 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     main#welcome-main {
-        min-height: 964px;
+        min-height: 883px;
         h1 {font-size: 3em;}
         h2 {font-size: 2.7em;}
         h3 {font-size: 2.7em;}
@@ -143,7 +143,7 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     main#welcome-main {
-        min-height: 619px;
+        min-height: 667px;
         h1 {font-size: 2.2em;}
         h2 {
             font-size: 1.7em;
