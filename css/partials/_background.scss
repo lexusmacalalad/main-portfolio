@@ -46,7 +46,7 @@
                 background-color: #7D9BA7;
                 color: white;
                 font-size: 25px;
-                padding: 3px;
+                padding: 2px;
                 margin-right: 139px;
             }
             h3 {
@@ -79,12 +79,9 @@
                 text-decoration: none;
             }
             &:hover {
-                width: 150px;
-                height: 50px;
                 background-color: black;
                 color: white;
                 transition: 0.25s;
-                font-size: 30px;
                 border-bottom: 2px solid white;
                 border-right: 2px solid white;
             }
@@ -113,8 +110,17 @@
     main#welcome-main {
         min-height: 883px;
         h1 {font-size: 3em;}
-        h2 {font-size: 2.7em;}
-        h3 {font-size: 2.7em;}
+        h2 {
+            font-size: 2.4em;
+            margin-left: 150px;
+            padding: 2px 50px;
+            width: 295px;
+        }
+        h3 {
+            font-size: 2.4em;
+            margin-left: 229px;
+            padding: 2px 50px;
+        }
         a {
             width: 8.7em;
             height: 2.2em;
@@ -143,24 +149,21 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     main#welcome-main {
-        min-height: 667px;
+        min-height: 722px;
         h1 {font-size: 2.2em;}
         h2 {
             font-size: 1.7em;
-            width: 193px;
+            width: 250px;
+            padding: 0 50px;
         }
         h3 {
             font-size: 1.7em;
-            padding: 3px 19px;
+            padding: 3px 50px;
         }
         a {
             width: 6.6em;
             height: 2.2em;
             font-size: 1.2em;
-            &:hover {
-                width: 9em;
-                height: 2.5em;
             }
         }
-    }
   }

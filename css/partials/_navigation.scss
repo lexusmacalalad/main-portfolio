@@ -1,64 +1,21 @@
 @import "./variables";
 
-
-
 // Responsive media queries
 /* For mobile phones: */
 [class*="col-"] {
     width: 100%;
   }
 
-#navigation {
-    background-color: $menu-bar;
-}
+  header {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+  }
 
-  .dropbtn {
-    background-color: $menu-button;
-    color: white;
-    padding: 16px;
-    font-size: 25px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 130px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: $deep-ocean;
-    padding: 12px 16px;
-    text-decoration: none;
-    font-size: 20px;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-      background-color: #5C7E8C;
-      color: white;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: #5C7E8C;
-  }
-  
   @media only screen and (min-width: 600px) {
     // larger than 601px - 768px
-    /* For tablets: */
+    /* For tablets: */ßß
     .col-s-1 {width: 8.33%;}
     .col-s-2 {width: 16.66%;}
     .col-s-3 {width: 25%;}
@@ -72,9 +29,6 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     #main-section {min-height: 904px;}
-    .dropbtn {font-size: 50px;}
-    .dropdown-content {min-width: 250px;}
-    .dropdown-content a {font-size: 2em;}
   }
   
   @media only screen and (min-width: 769px) {
@@ -93,7 +47,4 @@
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     #main-section {min-height: 1087px;}
-    .dropbtn {font-size: 30px; padding: 8px;}
-    .dropdown-content a {font-size: 1.1em;}
-    .dropdown-content {min-width: 180px;}
   }

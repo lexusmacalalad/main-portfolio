@@ -1,8 +1,8 @@
 // Scss Partials
-@import "./partials/navigation";
 @import "./partials/header";
 @import "./partials/background";
 @import "./partials/footer";
+@import "./partials/navigation";
 
 // Fonts
 
@@ -14,7 +14,7 @@
 }
 
 // Responsive media queries
-/* For mobile phones: */
+/* For mobile phones: */ßß
 [class*="col-"] {
     width: 100%;
   }
