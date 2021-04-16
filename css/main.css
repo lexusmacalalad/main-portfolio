@@ -489,6 +489,7 @@ header {
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 100;
 }
 
 header h1 {
@@ -643,7 +644,12 @@ nav a:hover {
   }
   nav li {
     margin-bottom: 0;
-    margin-right: 16px;
+    margin-right: 8px;
+    margin-left: 8px;
+  }
+  nav li a {
+    font-size: 0.9em;
+    padding: 0;
   }
 }
 
