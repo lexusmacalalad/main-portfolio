@@ -2,6 +2,7 @@
 /* For mobile phones: */
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 [class*="col-"] {
   width: 100%;
 }
@@ -701,10 +702,11 @@ nav a:hover {
   width: 100%;
 }
 
-main {
+main#other-pages {
   margin-top: 50px;
   padding: 18px;
   min-height: 100vh;
+  background-color: #0C536E;
 }
 
 section#skills {
@@ -717,24 +719,39 @@ section#skills h1 {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: 5px 5px 5px black;
+  font-weight: bold;
+  font-size: 29px;
+  font-family: Fjalla One, Arial, sans-serif;
   margin: 0px 0px 50px 0px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 5px solid black;
 }
 
 section#skills .current-skills {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-bottom: 100px;
 }
 
 .language-box {
   position: relative;
   width: 300px;
+  margin: 45px 25px;
+  background-color: #E5EEEF;
+  padding: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
 }
 
 .image {
@@ -770,12 +787,19 @@ section#skills .current-skills {
 
 h2 {
   text-align: center;
+  margin-top: 25px;
 }
 
 .text {
-  color: black;
+  color: white;
+  background-color: #0C536E;
+  font-family: monospace;
+  padding: 5px 5px;
+  border-radius: 5px;
+  width: 100%;
   font-size: 15px;
-  padding: 16px 32px;
+  font-weight: bold;
+  text-align: center;
 }
 
 @media only screen and (min-width: 600px) {
@@ -819,6 +843,16 @@ h2 {
   #main-section {
     min-height: 904px;
   }
+  .language-box {
+    width: 40%;
+    margin: 48px 32px;
+  }
+  .language-box h2 {
+    font-size: 2em;
+  }
+  .language-box p {
+    font-size: 1.6em;
+  }
 }
 
 @media only screen and (min-width: 769px) {
@@ -861,6 +895,17 @@ h2 {
   }
   #main-section {
     min-height: 1087px;
+  }
+  .language-box {
+    width: 18%;
+    margin: 48px 32px;
+  }
+  .language-box h2 {
+    font-size: 1.3em;
+  }
+  .language-box p {
+    font-size: 1em;
+    width: 100%;
   }
 }
 
