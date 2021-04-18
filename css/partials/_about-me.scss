@@ -1,0 +1,281 @@
+@import "./variables";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+// Getting rid of default styling on all elements
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Responsive media queries
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  // About Me Section
+  section#about-me {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+      .about-me {
+          width: 100vw;
+          background-color: white;
+          padding: 50px 30px 0px 30px;
+          h1 {
+              margin-bottom: 30px;
+              color: black;
+              font-family: Arial, Helvetica, sans-serif;
+              text-transform: uppercase;
+              font-weight: bold;
+              font-size: 30px;
+              display: block;
+              border-bottom: 5px solid #0C536E;
+              border-right: 5px solid #0C536E;
+              padding: 5px 30px;
+          }
+          .about-me-content {
+              display: flex;
+              flex-wrap: wrap;
+              justify-content: center;
+              img {
+                width: 250px;
+                margin-bottom: 30px;
+            }
+            .p-container {
+              width: 100%;
+              background-color: #7D9BA7;
+              margin: 0px 15px 50px 55px;
+              border-left: 15px #BAD2D5 solid;
+              display: flex;
+              flex-direction: column;
+              h2 {
+                  padding: 10px 15px;
+                  margin-left: -45px;
+                  align-self: flex-start;
+                  background-color: #474f52;
+                  font-family: Ubuntu;
+                  font-size: 1.5em;
+                  color: lightgray;
+              }
+              p {
+                  color: #E5EEEF;
+                  font-family: Ubuntu;
+                  font-size: 1.2em;
+                  padding: 10px 15px 20px 15px;
+                  letter-spacing: 1.2px;
+                  line-height: 1.4em;
+              }
+            }
+          }
+      }
+  }
+
+
+  //Hobbies section   
+  section#hobbies {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    .hobbies {
+        width: 100vw;
+        background-color: white;
+        padding: 50px 30px 0px 30px;
+        h1 {
+            margin-bottom: 30px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            font-weight: bold;
+            font-size: 30px;
+            text-align: right;
+            border-bottom: 5px solid #0C536E;
+            border-left: 5px solid #0C536E;
+            padding: 5px 30px;
+        }
+        .hobbies-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+          
+            .p-container {
+            width: 100%;
+            background-color: #BAD2D5;
+            margin: 0px 55px 50px 15px;
+            border-right: 15px #7D9BA7 solid;
+            display: flex;
+            flex-direction: column;
+            h2 {
+                align-self: flex-end;
+                padding: 10px 15px;
+                margin-right: -45px;
+                background-color: #474f52;
+                font-family: Ubuntu;
+                font-size: 1.5em;
+                color: lightgray;
+            }
+            p {
+                color: #474f52;
+                font-family: Ubuntu;
+                font-size: 1.2em;
+                margin-left: 20px;
+                padding: 10px 5px 20px 5px;
+                letter-spacing: 1.2px;
+                line-height: 1.4em;
+                a {
+                    color: #2D8CBB;
+                    text-decoration: none;
+                    text-transform: uppercase;
+                    &:visited {
+                        color: #2D8CBB
+                    }
+                    &:hover {
+                        color: white;
+                    }
+                }
+            }
+          }
+
+          .hobbies-container {
+              width: 250px;
+              height: 350px;
+              margin: 0px 0px 50px 0px;
+              background-color: #E5EEEF;
+              box-shadow: 10px 10px 5px black;
+              img {
+                  height: 75%;
+                  width: 100%;
+              }
+              h3 {
+                  color: black;
+                  text-align: center;
+                  font-family: Ubuntu;
+                  font-size: 25px;
+                  font-weight: bold;
+                  margin: 20px;
+              }
+          }
+        }
+    }
+}
+
+
+  @media only screen and (min-width: 600px) {
+    // larger than 601px - 768px
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    #main-section {min-height: 904px;}
+    section#about-me {
+        .about-me {
+            h1 {font-size: 2.5em;}
+            .about-me-content {
+                img {width: 300px;}
+                .p-container {
+                    h2 {font-size: 2em;}
+                    p {font-size: 1.5em;}
+                }
+            }
+        }
+    }
+
+    section#hobbies {
+        .hobbies {
+            h1 {font-size: 2.5em;}
+            .hobbies-content {
+                .p-container {
+                    h2 {font-size: 2em;}
+                    p {font-size: 1.5em;}
+                }
+                .hobbies-container {
+                    margin: 30px 20px;
+                }
+            }
+        }
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    // Anything beyond 768px
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #main-section {min-height: 1087px;}
+    section#about-me {
+        display: flex;
+        justify-content: center;
+        .about-me {
+            width: 75%;
+            h1 {font-size: 1.5em;}
+            .about-me-content {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                img {
+                    width: 16.66%;
+                    position: relative;
+                    left: 0;
+                }
+                .p-container {
+                    width: 66.66%;
+                    margin-left: 80px;
+                    h2 {font-size: 1.2em;}
+                    p {font-size: 1em;}
+                }
+            }
+        }
+    }
+
+    section#hobbies {
+        padding-top: 100px;
+        display: flex;
+        justify-content: center;
+        .hobbies {
+            width: 75%;
+            h1 {font-size: 1.5em;}
+            .hobbies-content {
+                .p-container {
+                    width: 75%;
+                    h2 {font-size: 1.2em;}
+                    p {font-size: 1em;}
+                }
+                .hobbies-flex {
+                    width: 75%;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: center;
+                    .hobbies-container {
+                        margin: 30px 20px;
+                        width: 200px;
+                        height: 250px;
+                        h3 {font-size: 1.2em;}
+                    }
+                }
+                }
+        }
+    }
+  }
