@@ -1,0 +1,25 @@
+@mixin heading1-text {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 29px;
+    font-family: Fjalla One, Arial, sans-serif;
+    margin: 0px 0px 50px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 5px solid black;
+    text-shadow: 5px 5px black;
+}
+
+@mixin heading2-text {
+    font-family: Ubuntu, Arial;
+    font-size: 27px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+@mixin container-color {
+    background-color: white;
+    border: 3px solid #7D9BA7;
+    border-radius: 15px;
+}
