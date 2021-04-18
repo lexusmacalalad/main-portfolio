@@ -6,6 +6,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 [class*="col-"] {
   width: 100%;
 }
@@ -1478,6 +1480,228 @@ section#hobbies .hobbies .hobbies-content .hobbies-container h3 {
   }
   section#hobbies .hobbies .hobbies-content .hobbies-flex .hobbies-container h3 {
     font-size: 1.2em;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+section.career-education {
+  margin: 50px auto 20px auto;
+  width: 83.33%;
+}
+
+section.career-education h1 {
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 29px;
+  font-family: Fjalla One, Arial, sans-serif;
+  margin: 0px 0px 50px 0px;
+  padding: 0px 0px 10px 0px;
+  border-bottom: 5px solid black;
+  text-shadow: 5px 5px black;
+}
+
+section.career-education .career-education-content {
+  padding: 0;
+}
+
+section.career-education .career-education-content .career-education-container {
+  margin-bottom: 50px;
+  background-color: white;
+  border: 3px solid #7D9BA7;
+  border-radius: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section.career-education .career-education-content .career-education-container h2 {
+  font-family: Ubuntu, Arial;
+  font-size: 27px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  margin-top: 25px;
+}
+
+section.career-education .career-education-content .career-education-container img {
+  width: 75%;
+  margin-top: 20px;
+}
+
+section.career-education .career-education-content .career-education-container ul {
+  margin-top: 15px;
+  list-style: none;
+  padding: 15px;
+}
+
+section.career-education .career-education-content .career-education-container ul li {
+  font-size: 19px;
+}
+
+section.career-education .resume p {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 22px;
+  font-weight: bold;
+  color: #BAD2D5;
+  margin-bottom: 30px;
+}
+
+section.career-education .resume img {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {
+    width: 8.33%;
+  }
+  .col-s-2 {
+    width: 16.66%;
+  }
+  .col-s-3 {
+    width: 25%;
+  }
+  .col-s-4 {
+    width: 33.33%;
+  }
+  .col-s-5 {
+    width: 41.66%;
+  }
+  .col-s-6 {
+    width: 50%;
+  }
+  .col-s-7 {
+    width: 58.33%;
+  }
+  .col-s-8 {
+    width: 66.66%;
+  }
+  .col-s-9 {
+    width: 75%;
+  }
+  .col-s-10 {
+    width: 83.33%;
+  }
+  .col-s-11 {
+    width: 91.66%;
+  }
+  .col-s-12 {
+    width: 100%;
+  }
+  #main-section {
+    min-height: 904px;
+  }
+  section.career-education {
+    width: 91.66%;
+  }
+  section.career-education h1 {
+    font-size: 2.6em;
+  }
+  section.career-education .career-education-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  section.career-education .career-education-content .career-education-container {
+    width: 41.66%;
+    margin: 50px auto;
+  }
+  section.career-education .resume {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  section.career-education .resume img {
+    width: 50%;
+    display: inline;
+    margin-left: 150px;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  /* For desktop: */
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+  #main-section {
+    min-height: 1087px;
+  }
+  section.career-education {
+    width: 66.66%;
+  }
+  section.career-education h1 {
+    font-size: 1.8em;
+  }
+  section.career-education .career-education-content .career-education-container {
+    display: initial;
+    width: 43%;
+    margin: 30px;
+  }
+  section.career-education .career-education-content .career-education-container img {
+    width: 33.33%;
+    float: left;
+    margin: 20px;
   }
 }
 
