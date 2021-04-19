@@ -155,6 +155,10 @@ section.blog {
             flex-direction: row;
             flex-wrap: wrap;
             justify-content: space-evenly;
+            // &::after {
+            //     content: "";
+            //     flex: auto;
+            // }
             .blog-content {
                 width: 41.66%;
                 .cold-showers {align-self: flex-start;}
@@ -184,11 +188,11 @@ section.blog {
                             font-size: 1.1em;
                         }
                     }
+                    .cold-showers {
+                        margin-left: 75px;
+                    }
                 }
             }
         }
-    }
-    .cold-showers {
-        align-self: flex-start;
     }
   }

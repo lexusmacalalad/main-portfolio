@@ -101,8 +101,9 @@
                 </div>
             </div>
             <!-- Cold Showers -->
-            <div class="blog-content cold-showers">
-                <div class="blog-container">
+            <div class="blog-content">
+                <!-- I added "flex-blog::after" because ideally, I wanted to align it to the left because flexbox automatically centers this element. For some reason, the .cold-showers {margin-left: 75px;} class is not moving the element to the right to align with the other blog-containers. I tried adding and inline styling of margin which fixes it for desktop view, but misaligns it for the mobile and ipad media queries. I have commented out the styling, but feel free to uncomment them to see what I mean. In the end, I just stuck with the last element being centered by the flexbox styling. -->
+                <div class="blog-container cold-showers">
                     <div class="blog-title">                            <img src="../images/shower.jpeg"    alt="Cold Shower"/>
                         <h2>Cold Showers: is it Good for You?</h2>
                     </div>
