@@ -18,6 +18,10 @@
     text-transform: uppercase;
 }
 
+@mixin heading3-text {
+    
+}
+
 @mixin container-color {
     background-color: white;
     border: 3px solid #7D9BA7;
