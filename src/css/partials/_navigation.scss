@@ -1,0 +1,150 @@
+@import "./variables";
+
+// Getting rid of default styling on all elements
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Responsive media queries
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+  header {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    h1 {
+        font-weight: bold;
+        font-size: 17px;
+        width: 100%;
+        z-index: 100;
+        color: white;
+        text-shadow: 2px 2px 4px black;
+        text-transform: uppercase;
+    }
+  }
+    .toggler {
+        display: none;
+    }
+    .banner {
+        display: flex;
+        height: 44px;
+        width: 199px;
+        margin-left: 11px;
+        align-items: center;
+    }
+    nav {
+        ul {
+            position: fixed;
+            width: 100%;
+            height: 100vh;
+            padding: 16px;
+            background-color: #474f52;;
+            left: -100%;
+            transition: all 0.5s;
+            list-style: none;
+        }
+        li {
+            margin-bottom: 16px;
+            margin-left: 16px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            text-shadow: 2px 2px 4px black;
+            text-transform: uppercase;
+            font-weight: bold;
+            &:hover {
+                color: #7D9BA7;
+                transition: ease-in 0.1s;
+            }
+        }
+    }
+    .toggler:checked ~ nav ul {
+        left: 0;
+    }
+    .burger {
+        position: absolute;
+        font-size: 35px;
+        color: whitesmoke;
+        text-shadow: 2px 2px 4px black;
+        top: 0;
+        right: 0;
+        margin-right: 11px;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+  @media only screen and (min-width: 600px) {
+    // larger than 601px - 768px
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    #main-section {min-height: 904px;}
+    .burger {
+        display: none;
+    }
+    header {
+        display: grid;
+        grid-template-columns: 1fr auto minmax(500px, 3fr);
+    }
+    nav {
+        display: flex;
+        grid-column: 3/4;
+        justify-content: flex-end;
+        align-items: center;
+        ul {
+            all: unset;
+            list-style: none;
+            display: flex;
+        }
+        li {
+            margin-bottom: 0;
+            margin-right: 8px;
+            margin-left: 8px;
+            a {
+                font-size: 0.9em;
+                padding: 0;
+            }
+        }
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    // Anything beyond 768px
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #main-section {min-height: 1087px;}
+  }

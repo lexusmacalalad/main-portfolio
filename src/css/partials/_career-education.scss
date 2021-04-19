@@ -1,0 +1,141 @@
+@import "./variables";
+@import "./mixins";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+// Getting rid of default styling on all elements
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+// Responsive media queries
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+
+//   Career & Education section
+section.career-education {
+    margin: 50px auto 20px auto;
+    width: 83.33%;
+    h1 {
+        @include heading1-text;
+    }
+    .career-education-content {
+        padding: 0;
+        .career-education-container {
+            margin-bottom: 50px;
+            @include container-color;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            h2 {
+                @include heading2-text;
+                margin-top: 25px;
+            }
+            img {
+                width: 75%;
+                margin-top: 20px;
+            }
+            ul {
+                margin-top: 15px;
+                list-style: none;
+                padding: 15px;
+                li {
+                    font-size: 19px;
+                }
+            }
+        }
+    }
+    .resume {
+        p {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 22px;
+            font-weight: bold;
+            color: #BAD2D5;
+            margin-bottom: 30px;
+        }
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+  @media only screen and (min-width: 600px) {
+    // larger than 601px - 768px
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+    #main-section {min-height: 904px;}
+    section.career-education {
+        width: 91.66%;
+        h1 {font-size: 2.6em;}
+        .career-education-content {
+            display: flex;
+            flex-wrap: wrap;
+            .career-education-container {
+                width: 41.66%;
+                margin: 50px auto;
+            }
+        }
+        .resume {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img {
+                width: 50%;
+                display: inline;
+                margin-left: 150px;
+            }
+        }
+    }
+  }
+  
+  @media only screen and (min-width: 769px) {
+    // Anything beyond 768px
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #main-section {min-height: 1087px;}
+    section.career-education {
+        width: 66.66%;
+        h1 {font-size: 1.8em;}
+        .career-education-content {
+            .career-education-container {
+                display: initial;
+                width: 43%;
+                margin: 30px;
+                img {
+                    width: 33.33%;
+                    float: left;
+                    margin: 20px;
+                }
+            }
+        }
+    }
+  }
