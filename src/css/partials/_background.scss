@@ -27,7 +27,7 @@
     height: 100vh;
     }
     #welcome-main {
-        min-height: 711px;
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -36,25 +36,37 @@
             font-family: Zilla Slab Highlight;
             color: white;
             margin: 25px;
-            font-size: 35px;
+            font-size: 25px;
         }
         div.fullstack-container {
             align-self: flex-end;
-            margin: 25px 20px;
+            position: relative;
+            bottom: 120px;
+            width: 270px;
+            right: 70px;
+            display: flex;
+            flex-direction: column;
         }
             h2 {
                 background-color: #7D9BA7;
                 color: white;
-                font-size: 25px;
-                padding: 3px 18px;
-                margin-right: 149px;
+                font-size: 18px;
+                text-align: center;
+                padding: 5px 10px;
+                width: 200px;
+                position: relative;
+                display: inline-block;
             }
             h3 {
                 color: #7D9BA7;
                 background-color: black;
-                padding: 2px 18px;
-                margin-left: 112px;
-                font-size: 22px;
+                font-size: 18px;
+                text-align: center;
+                padding: 5px 10px;
+                width: 200px;
+                position: relative;
+                display: inline-block;
+                align-self: flex-end;
             }
         }
         #explore {
@@ -108,13 +120,23 @@
     .col-s-11 {width: 91.66%;}
     .col-s-12 {width: 100%;}
     main#welcome-main {
-        min-height: 883px;
         h1 {font-size: 3em;}
-        h2 {
-            font-size: 2.7em;
-            margin-right: 264px;
+        .fullstack-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            width: 500px;
+            h2 {
+                font-size: 1.8em;
+                width: 300px;
+                margin: 0;
+            }
+            h3 {
+                font-size: 1.8em;
+                width: 410px;
+                margin: 0;
+            }
         }
-        h3 {font-size: 2.7em;}
         #explore {
             font-size: 2.7em;
             width: 7.4em;

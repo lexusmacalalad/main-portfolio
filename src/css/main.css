@@ -156,7 +156,7 @@
 }
 
 #welcome-main {
-  min-height: 711px;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,29 +175,47 @@
   font-family: Zilla Slab Highlight;
   color: white;
   margin: 25px;
-  font-size: 35px;
+  font-size: 25px;
 }
 
 #welcome-main div.fullstack-container {
   -ms-flex-item-align: end;
       align-self: flex-end;
-  margin: 25px 20px;
+  position: relative;
+  bottom: 120px;
+  width: 270px;
+  right: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 #welcome-main h2 {
   background-color: #7D9BA7;
   color: white;
-  font-size: 25px;
-  padding: 3px 18px;
-  margin-right: 149px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
 }
 
 #welcome-main h3 {
   color: #7D9BA7;
   background-color: black;
-  padding: 2px 18px;
-  margin-left: 112px;
-  font-size: 22px;
+  font-size: 18px;
+  text-align: center;
+  padding: 5px 10px;
+  width: 200px;
+  position: relative;
+  display: inline-block;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
 }
 
 #explore {
@@ -281,18 +299,31 @@
   .col-s-12 {
     width: 100%;
   }
-  main#welcome-main {
-    min-height: 883px;
-  }
   main#welcome-main h1 {
     font-size: 3em;
   }
-  main#welcome-main h2 {
-    font-size: 2.7em;
-    margin-right: 264px;
+  main#welcome-main .fullstack-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    width: 500px;
   }
-  main#welcome-main h3 {
-    font-size: 2.7em;
+  main#welcome-main .fullstack-container h2 {
+    font-size: 1.8em;
+    width: 300px;
+    margin: 0;
+  }
+  main#welcome-main .fullstack-container h3 {
+    font-size: 1.8em;
+    width: 410px;
+    margin: 0;
   }
   main#welcome-main #explore {
     font-size: 2.7em;
