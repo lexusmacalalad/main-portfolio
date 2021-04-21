@@ -145,8 +145,8 @@
   width: 100%;
 }
 
-#main-page {
-  background-image: url(../../images/snow-mountain-2380x1600.jpg);
+body#main-page {
+  background-image: url(../images/snow-mountain-2380x1600.jpg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -965,14 +965,6 @@ h2 {
   width: 100%;
 }
 
-main#other-pages {
-  margin-top: 50px;
-  margin-bottom: 57px;
-  padding: 18px;
-  min-height: 100vh;
-  background-color: #0C536E;
-}
-
 section#links {
   color: black;
   min-height: 100vh;
@@ -1137,6 +1129,14 @@ section#links .link-section .link-container h2 {
 /* For mobile phones: */
 [class*="col-"] {
   width: 100%;
+}
+
+main#other-pages {
+  margin-top: 50px;
+  margin-bottom: 57px;
+  padding: 18px;
+  min-height: 100vh;
+  background-color: #0C536E;
 }
 
 section#about-me {

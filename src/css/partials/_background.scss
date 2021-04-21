@@ -16,58 +16,61 @@
     width: 100%;
   }
 
-  // Hero background for main welcome page
-  #main-page {
-    background-image: url(../../images/snow-mountain-2380x1600.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
-    }
-    #welcome-main {
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: space-between;
-        h1 {
-            font-family: Zilla Slab Highlight;
-            color: white;
-            margin: 25px;
-            font-size: 25px;
+    // Hero background for main welcome page
+    body#main-page {
+        background-image: url(../images/snow-mountain-2380x1600.jpg);
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-position: center center;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
         }
-        div.fullstack-container {
-            align-self: flex-end;
-            position: relative;
-            bottom: 120px;
-            width: 270px;
-            right: 70px;
+        // Contents of welcome page that introduces me briefly, and invites the target audience to explore more of myself by clicking a button.
+        #welcome-main {
+            height: 100%;
             display: flex;
+            flex-wrap: wrap;
             flex-direction: column;
-        }
-            h2 {
-                background-color: #7D9BA7;
+            justify-content: space-between;
+            h1 {
+                font-family: Zilla Slab Highlight;
                 color: white;
-                font-size: 18px;
-                text-align: center;
-                padding: 5px 10px;
-                width: 200px;
-                position: relative;
-                display: inline-block;
+                margin: 25px;
+                font-size: 25px;
             }
-            h3 {
-                color: #7D9BA7;
-                background-color: black;
-                font-size: 18px;
-                text-align: center;
-                padding: 5px 10px;
-                width: 200px;
-                position: relative;
-                display: inline-block;
+            div.fullstack-container {
                 align-self: flex-end;
+                position: relative;
+                bottom: 120px;
+                width: 270px;
+                right: 70px;
+                display: flex;
+                flex-direction: column;
             }
+                h2 {
+                    background-color: #7D9BA7;
+                    color: white;
+                    font-size: 18px;
+                    text-align: center;
+                    padding: 5px 10px;
+                    width: 200px;
+                    position: relative;
+                    display: inline-block;
+                }
+                h3 {
+                    color: #7D9BA7;
+                    background-color: black;
+                    font-size: 18px;
+                    text-align: center;
+                    padding: 5px 10px;
+                    width: 200px;
+                    position: relative;
+                    display: inline-block;
+                    align-self: flex-end;
+                }
+
+        // Clickable explore button
         }
         #explore {
             align-self: center;

@@ -16,6 +16,16 @@
 [class*="col-"] {
     width: 100%;
   }
+
+
+    // Background for All Pages (except home/welcome page)
+    main#other-pages {
+        margin-top: 50px;
+        margin-bottom: 57px;
+        padding: 18px;
+        min-height: 100vh;
+        background-color: #0C536E;
+      }
   
   // About Me Section
   section#about-me {
