@@ -1,0 +1,381 @@
+commit e78b41f0fae3c40504bfc4af0a05d7258d70925a
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Thu Apr 22 20:16:11 2021 +1000
+
+    finalise everything and add XML and SRI to all pages
+
+commit 5b8b2898729f4285eed3ddb64338693a2d447fff
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Wed Apr 21 15:25:54 2021 +1000
+
+    commiting to see if background image for the welcome page is working on the deployed site
+
+commit d294554b71d3697d67bbbaf052f8aba6c62da07e
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 20 09:50:12 2021 +1000
+
+    copy resume pdf from docs to a directory within the src directory to allow access to resume on deployed Netlify website
+
+commit fff51e6a9e6aa1b73070c94f0530b54a9283e454
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 20 09:31:32 2021 +1000
+
+    try to fix resume link
+
+commit df45332d8e0359344f76df52f237c6f0972d4d47
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 20 09:09:55 2021 +1000
+
+    add pdf version of resume and renamed it to get rid of the space
+
+commit ea8fb008624e0f9758177738750fa63f0f53e4ee
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 22:22:02 2021 +1000
+
+    fix pages and links before presentation
+
+commit 490cb81b16763bf37adeeb22bc70fa35e7ce82f5
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 20:37:21 2021 +1000
+
+    fix styling undone to main home page when creating src directory
+
+commit 76725ebbb075834f81601149fa4b827c2a433ea8
+Merge: dff6ab9 c576500
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 16:55:49 2021 +1000
+
+    resolve conflicts
+
+commit c576500798c8e8fe2f14ca62ee867251cc667bf3
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 16:08:18 2021 +1000
+
+    commit to satisfy deliverable requirements
+
+commit dff6ab9f93c623a5d0f9e62ff07adc7cea037ff4
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 15:59:24 2021 +1000
+
+    commit to change branches
+
+commit 77751444f50b17aa592ffb0b8c22b0ab7752a4d8
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 15:15:32 2021 +1000
+
+    create folders as per deliverable instructions
+
+commit dbb1a412fe49b821c4ef9a1797baf24060c01761
+Merge: 817ab3c dbf1d31
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Mon Apr 19 14:10:30 2021 +1000
+
+    Merge pull request #21 from lexusmacalalad/blog
+    
+    make blog section
+
+commit dbf1d31dac8b111e4af21075a2344e2639601581
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 19 14:09:45 2021 +1000
+
+    make blog section
+
+commit 817ab3c071fe2b89a526ab35f21939b63dc15ff3
+Merge: d21b0a7 0edeb71
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Sun Apr 18 18:30:51 2021 +1000
+
+    Merge pull request #20 from lexusmacalalad/career-education
+    
+    cfinish career and education section
+
+commit 0edeb7192dd90359b736146283c4a2368f0531fa
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Sun Apr 18 18:30:12 2021 +1000
+
+    cfinish career and education section
+
+commit d21b0a75864f7502b46bb63bd6a83d004ecb52a6
+Merge: 407ed8a be2f5e6
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Sun Apr 18 11:52:16 2021 +1000
+
+    Merge pull request #19 from lexusmacalalad/about-me
+    
+    finish about-me page
+
+commit be2f5e6bdcfaf14b95a61383cd732bfa91f9bef8
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Sun Apr 18 11:50:54 2021 +1000
+
+    finish about-me page
+
+commit 407ed8ac811302cb60992e7e2a33c6885ee7710d
+Merge: 28ae76b 404f668
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Sat Apr 17 10:20:44 2021 +1000
+
+    Merge pull request #18 from lexusmacalalad/links
+    
+    fix alignment of main section
+
+commit 404f66884b613fb538e08d6262dc6769de0a9247
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Sat Apr 17 10:19:37 2021 +1000
+
+    fix alignment of main section
+
+commit 28ae76b4378e57ee51b8be2ec53f12921ae7e72d
+Merge: 7b2aefa 3346064
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Fri Apr 16 18:14:09 2021 +1000
+
+    Merge pull request #17 from lexusmacalalad/links
+    
+    first draft of links page
+
+commit 3346064ccb31dad9079af5d2f0317d1075d353d1
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 18:13:24 2021 +1000
+
+    first draft of links page
+
+commit 7b2aefa032df134bceb1696813443760488ccb98
+Merge: 69da0ac 1c48cd0
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Fri Apr 16 15:16:19 2021 +1000
+
+    Merge pull request #16 from lexusmacalalad/skills
+    
+    fix broken links to other pages
+
+commit 1c48cd0f87d981add8f2d44898c6e528f1da183f
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 15:15:23 2021 +1000
+
+    fix broken links to other pages
+
+commit 69da0ac40c18a8527ecd8eae98fc5db01ac95317
+Merge: 63f92a6 80836b8
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Fri Apr 16 15:00:53 2021 +1000
+
+    Merge pull request #15 from lexusmacalalad/navigation
+    
+    fix navigation menu for ipad view
+
+commit 80836b808c19b25e0cc1ac6e35aab614e5945e4d
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 15:00:08 2021 +1000
+
+    try to resolve issue with conflict when pulling
+
+commit 03826fdce2c80b9e684e78553f473be55cd3a336
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 14:45:57 2021 +1000
+
+    fix navigation menu for ipad view
+
+commit 63f92a6d50c6b0c5b9e890d532f618f359eb8337
+Merge: 1d5fae0 09e38d7
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Fri Apr 16 14:33:32 2021 +1000
+
+    Merge pull request #14 from lexusmacalalad/skills
+    
+    finish skills section
+
+commit 09e38d798de22574e0ffbae9ddee12a3f5fb41f9
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 14:33:06 2021 +1000
+
+    finish skills section
+
+commit 1d5fae08bbf54fd92c201d81d6614bfd192bb323
+Merge: f141fb4 7f6dbe6
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Fri Apr 16 10:53:35 2021 +1000
+
+    Merge pull request #13 from lexusmacalalad/skills
+    
+    recreate skills section after git local repository deleted all files
+
+commit 7f6dbe6ed4f28ea9038b4e853d4f18bec6233879
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Fri Apr 16 10:53:00 2021 +1000
+
+    recreate skills section after git local repository deleted all files
+
+commit f141fb48f3b65c8ea1f68691c20023abf94eb174
+Merge: 6c274c8 8ff7d5b
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Thu Apr 15 16:07:27 2021 +1000
+
+    Merge pull request #11 from lexusmacalalad/navigation
+    
+    finish responsive navigation menu
+
+commit 8ff7d5bbf56adceb6c5a5b332a7685a6138ac308
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Thu Apr 15 16:06:01 2021 +1000
+
+    finish responsive navigation menu
+
+commit 6c274c8d5442b0ddfaaf1eeacdc522c901e72bbf
+Merge: 3671d9c 814ab4e
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Thu Apr 15 11:10:22 2021 +1000
+
+    Merge pull request #10 from lexusmacalalad/navigation
+    
+    recreate navigation branch to resolve conflicts
+
+commit 814ab4e197a49bb30740b561ff3372ab6a4d8578
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Thu Apr 15 11:09:34 2021 +1000
+
+    recreate navigation branch to resolve conflicts
+
+commit 3671d9c47c748edf8b074e61f64868f1010f5a5c
+Merge: 6116351 1c51b67
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Wed Apr 14 20:04:14 2021 +1000
+
+    Merge pull request #8 from lexusmacalalad/background
+    
+    fix home page background again because of loss of data
+
+commit 1c51b67f0c0620fde35d7c69cf115d8c0d5b352d
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Wed Apr 14 20:03:41 2021 +1000
+
+    fix home page background again because of loss of data
+
+commit 6116351de415048f687a64a9acb3e4728d6c9f88
+Merge: e89d545 192092d
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Wed Apr 14 19:46:26 2021 +1000
+
+    Merge pull request #7 from lexusmacalalad/footer
+    
+    fix footer
+
+commit 192092d712333d6f0f3a7eef56acfe10e7b19c77
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Wed Apr 14 19:45:39 2021 +1000
+
+    fix footer
+
+commit e89d545d7d66a980d4ac25b32e665a0e39d7ec9d
+Merge: ffbc7bd e5ca136
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Wed Apr 14 10:28:55 2021 +1000
+
+    Merge pull request #6 from lexusmacalalad/footer
+    
+    fix for footer scss and devtools compiling
+
+commit e5ca1365c1391fd5d90fe6df2346094e67bfc15f
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Wed Apr 14 10:28:30 2021 +1000
+
+    fix for footer scss and devtools compiling
+
+commit ffbc7bd0c736cf7aa830be1fe55b981293cbb089
+Merge: dbd261a c4eaecd
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Tue Apr 13 16:00:21 2021 +1000
+
+    Merge pull request #5 from lexusmacalalad/background
+    
+    finish background of main page
+
+commit c4eaecd865f75e2ff379d3c67c260ff1a211b957
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 15:59:19 2021 +1000
+
+    finish background of main page
+
+commit dbd261a5c9a67023b5a0baecd1ea33f58c35162a
+Merge: 7eddc71 2d16d64
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Tue Apr 13 13:50:50 2021 +1000
+
+    Merge pull request #4 from lexusmacalalad/footer
+    
+    added a footer section
+
+commit 2d16d64f125ed63b8322075176584c7622e37e65
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 13:50:22 2021 +1000
+
+    added a footer section
+
+commit 7eddc715b73a6b00c63de2c55eeab7fafdd009e3
+Merge: 1d0d116 5f1e90d
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Tue Apr 13 13:19:04 2021 +1000
+
+    Merge pull request #3 from lexusmacalalad/background
+    
+    create background and contents for main page
+
+commit 5f1e90dad9bd9c09d4a1e955a138ff085d9d27c3
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 13:18:24 2021 +1000
+
+    create background and contents for main page
+
+commit 1d0d11653e7fe24c0c09fd33c92bfb1cfbae6a5c
+Merge: 25ad1b7 afc6845
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Tue Apr 13 10:28:38 2021 +1000
+
+    Merge pull request #2 from lexusmacalalad/header
+    
+    Header
+
+commit afc6845baef7784278db54c208465cb4c0940bfa
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 10:25:06 2021 +1000
+
+    create header for all pages
+
+commit 5d922094bdd0d2fff30d3504b7e71ce8d2a467ac
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 09:19:01 2021 +1000
+
+    add header scss file
+
+commit 1a153606582ec3c4e91399f422b73c212e9dcb81
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Tue Apr 13 09:16:37 2021 +1000
+
+    update colors for navigation menu
+
+commit 25ad1b763012c5fc3e55c621038e97de9533159a
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 12 21:51:14 2021 +1000
+
+    addjust media queries for ipad and desktop and added font awesome folder
+
+commit b767446f18845e56a48dca05c3ae2dbd81efe340
+Merge: 69f2a72 ddc977b
+Author: Lexus Macalalad <79287141+lexusmacalalad@users.noreply.github.com>
+Date:   Mon Apr 12 20:50:12 2021 +1000
+
+    Merge pull request #1 from lexusmacalalad/navigation
+    
+    add vertical navigation bar for mobile
+
+commit ddc977b4bdaee09e7684bad73db4f4a531a6e236
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 12 20:46:22 2021 +1000
+
+    add vertical navigation bar for mobile
+
+commit 69f2a72e8af96af7887740f427d9dec2128588b6
+Author: lexusmacalalad <lexus.macalalad@gmail.com>
+Date:   Mon Apr 12 19:10:54 2021 +1000
+
+    initial commit - create required files for portfolio
