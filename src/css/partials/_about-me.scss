@@ -16,22 +16,13 @@
 [class*="col-"] {
     width: 100%;
   }
-
-
-    // Background for All Pages (except home/welcome page)
-    main#other-pages {
-        margin-top: 50px;
-        margin-bottom: 57px;
-        padding: 18px;
-        min-height: 100vh;
-        background-color: #0C536E;
-      }
   
   // About Me Section
   section#about-me {
       width: 100vw;
       margin: 0;
       padding: 0;
+      background-color: white;
       .about-me {
           width: 100vw;
           background-color: white;
@@ -91,6 +82,7 @@
     width: 100vw;
     margin: 0;
     padding: 0;
+    background-color: white;
     .hobbies {
         width: 100vw;
         background-color: white;
@@ -285,7 +277,7 @@
                         h3 {font-size: 1.2em;}
                     }
                 }
-                }
+            }
         }
     }
   }

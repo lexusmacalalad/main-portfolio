@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../css/main.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/main.css" integrity="sha384-lsTxDhmUNhikomYNDkm5G8o+YwCXj8F3U4TlApOa9i6rlch4tL2gxOyIZ/YI6S7U"/>
     <!-- font awesome hamburger menu link -->
     <link rel="stylesheet" href="../css/all.css">
     <title>Lexus Macalalad | About Me</title>
@@ -30,13 +30,14 @@
     </header>
 
     <!-- Main section -->
-    <!-- specifically added padding: 0px so only to the "about me" page to get rid of the blue-green border so that this page can have a white background -->
+    <!-- specifically added padding: 0px so only to the "about me" page to get rid of the blue-green border so that this page can have a white background-->
     <main id="other-pages" style="padding: 0px;">
         
         <!-- About me section -->
-        <section id="about-me" style="background-color: white;">
+        <section id="about-me">
             <div class="about-me">
                 <h1>About Me</h1>
+                <!-- container for images and description -->
                 <div class="about-me-content">
                     <img src="../images/20210322_183409.jpg" alt="author's photo"/>
                     <div class="p-container">
@@ -48,15 +49,17 @@
         </section>
 
         <!-- Hobbies section -->
-        <section id="hobbies" style="background-color: white;">
+        <section id="hobbies">
             <div class="hobbies">
                 <h1>Hobbies</h1>
+                <!-- container for images and description -->
                 <div class="hobbies-content">
                     <div class="p-container">
                         <h2>My <span style="color: #7D9BA7">Hobbies</span> include</h2>
                         <p>I have a lot of hobbies, but my main hobbies are <span style="color: #2D8CBB;">building custom mechanical keyboards, building gundam model kits, coding, and gaming.</span></p>
                         <p>Click <a href="./blog.html" target="_blank">here</a> for more details about my hobbies.</p>
                     </div>
+                    <!-- container to manipulate hobbies container for flexbox purposes -->
                     <div class="hobbies-flex">
                         <div class="hobbies-container">
                             <img src="../images/keyboard.jpeg" alt="keyboard"/>

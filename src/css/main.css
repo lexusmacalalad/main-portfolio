@@ -145,6 +145,14 @@
   width: 100%;
 }
 
+main#other-pages {
+  margin-top: 50px;
+  margin-bottom: 57px;
+  padding: 18px;
+  min-height: 100vh;
+  background-color: #0C536E;
+}
+
 body#main-page {
   background-image: url(../images/snow-mountain-2380x1600.jpg);
   background-repeat: no-repeat;
@@ -1131,18 +1139,11 @@ section#links .link-section .link-container h2 {
   width: 100%;
 }
 
-main#other-pages {
-  margin-top: 50px;
-  margin-bottom: 57px;
-  padding: 18px;
-  min-height: 100vh;
-  background-color: #0C536E;
-}
-
 section#about-me {
   width: 100vw;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 section#about-me .about-me {
@@ -1218,6 +1219,7 @@ section#hobbies {
   width: 100vw;
   margin: 0;
   padding: 0;
+  background-color: white;
 }
 
 section#hobbies .hobbies {

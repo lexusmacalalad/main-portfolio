@@ -16,8 +16,18 @@
     width: 100%;
   }
 
+    // Background for All Pages (except home/welcome page)
+    main#other-pages {
+        margin-top: 50px;
+        margin-bottom: 57px;
+        padding: 18px;
+        min-height: 100vh;
+        background-color: #0C536E;
+        }
+
     // Hero background for main welcome page
     body#main-page {
+        // Please note that the file path was ../../images/snow-mountain-2380x1600.jpg before (which was working), but before submission, it somehow wasn't deteting the image file and putting only one ../ somehow fixed it. If the website or live server is not displaying the background image of a snowy mountain on the welcome page, please add another ../ to the file path.
         background-image: url(../images/snow-mountain-2380x1600.jpg);
         background-repeat: no-repeat;
         background-attachment: scroll;
